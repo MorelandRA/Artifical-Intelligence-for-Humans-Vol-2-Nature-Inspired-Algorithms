@@ -1,0 +1,48 @@
+Author's Website: www.heatonresearch.com
+
+Book is written to be readable, but not trivial. It discusses complex topics, and explains when and why
+these topics are useful, and how they can be applied.
+
+As per the software license agreement, the materials included with this book (including the source code)
+are prohibited from being shared. As such, all notes are paraphrased, and all code written will be
+my own.
+
+Strategies used in nature, such as those seen in plants, animals, and evolution, can be used as
+inspiration. In nature, things can cooperate and compete. Similiarly, a programmer can create
+machines that work together or that compete to become the best. However, nature is purely an
+inspiration. In reality, the processes used by nature are very complicated, so for programming
+purposes, it's better to simplify things for efficiency. 
+
+This book has 10 chapters:
+1: Population and Scoring
+A population of solutions are created, which must be scored to determine their value.
+
+2: Crossover and Mutation
+Populations can be used to create new members of the population, either by combining two (crossover)
+or by modifying one (mutation).
+
+3: Genetic Algorithms
+Uses evolution on fixed-length arrays to solve problems like the traveling salesman problem and Iris
+classification.
+
+4: Genetic Programming
+Uses evolution on dynamically-sized arrays, and uses these ideas to create programs that write programs.
+
+5: Speciation
+Dividing the population into different species. Only members of the same species will reproduce with
+each other.
+
+6: Particle Swarm Optimization
+Groups of particles search for optimizations similar to groups of animals avoiding predators.
+
+7: Ant Colony Optimization
+Simulates ant pheromone trails to optimize software solutions.
+
+8: Cellular Automation
+Simple rules can create complex results, particularly when evolution is applied.
+
+9: Artificial Life
+Capstone project, simulating plant growth.
+
+10: Modeling Problems
+Capstone project, predicting Titanic survivors.

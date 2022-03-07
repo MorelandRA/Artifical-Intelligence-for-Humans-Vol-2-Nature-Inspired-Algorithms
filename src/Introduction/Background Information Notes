@@ -1,0 +1,29 @@
+Vectors
+1D Arrays
+Used to store data about a single instance of an object
+For example, in the Iris data set, there are columns in an instance of a flower: Sepal length, sepal
+width, petal length, petal width, and iris species
+
+Distance
+Euclidian distance, the actual distance between two vectors. Often used by machine learning because it is
+fast to compare two vectors with the same number of elements.
+distance(a,b) = sqrt(sum from i = 1 to n of ((ai - bi)^2))
+
+Modeling with an Radial-Basis Function (RBF) network
+RBFs are a model for regression and classification. Regression returns numbers, and classification
+returns non-number values. RFBs modify a random parameter vector to train, and use this as its long-term
+memory. 
+
+Radial-Basis Functions
+RBFs are used by many AI algorithms. They are symmetric, and usually peak at the center at 1. They can
+have many dimensions, but the output is always a single scalar value. The most common RFB is the
+Gaussian function / normal distribution / bell curve. An RBF can be used by calculating r, or ||x-xi||,
+where ||x|| represents a distance, usually the Euclidian distance. In this book, all examples will use
+the Euclidian distance. Therefore, r is the Euclidian distance between the center and x, which all 
+examples in this book will also use. PHI will always be used to represent the RBF, which is e^(-r^2).
+
+Radial-Basis Function Networks
+RBF networks give a weighted sum of at least one RBF. The output of this network is f(X) = the sum
+from i = 1 to N of (aip(||biX=ci||)) where X is the input vector, c is the the center of the RBF, p is 
+the chosen RBF, a is the vector coefficient for each RBF, and b is the vector coefficient to weight the
+input attributes.
